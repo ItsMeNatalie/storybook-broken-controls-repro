@@ -1,0 +1,27 @@
+{
+  "name": "storybook-broken-controls-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "packageManager": "yarn@3.3.1",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.25",
+    "@storybook/addon-interactions": "^7.0.0-beta.25",
+    "@storybook/addon-links": "^7.0.0-beta.25",
+    "@storybook/blocks": "^7.0.0-beta.25",
+    "@storybook/react": "^7.0.0-beta.25",
+    "@storybook/react-webpack5": "^7.0.0-beta.25",
+    "@storybook/testing-library": "^0.0.13",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.0-beta.25"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}
